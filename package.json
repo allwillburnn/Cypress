@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@types/node": "^18.11.18",
+    "cypress": "^12.5.1",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.17.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "cy": "npx cypress open"
+  }
+}

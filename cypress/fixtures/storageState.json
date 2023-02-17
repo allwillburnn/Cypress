@@ -1,0 +1,125 @@
+{
+  "cookies": [
+    {
+      "name": "FTID",
+      "value": "1ZvYs60MU0uV1ZvYs6002OAD",
+      "domain": ".yadro.ru",
+      "path": "/",
+      "expires": 1707512400.235015,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "VID",
+      "value": "071tkh19EG8V1ZvYs6002OAh",
+      "domain": ".yadro.ru",
+      "path": "/",
+      "expires": 1707512400.265891,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "c-MjKEkVXynz2PRryCQWoWaKxxfI9E5wQw",
+      "value": "",
+      "domain": "4pda.to",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cid",
+      "value": "AnHbADdHA4zmgd_OOV1D0jA",
+      "domain": ".adriver.ru",
+      "path": "/",
+      "expires": 1710589318.559782,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1698921705.1676029318",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1710589318.312279,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1123209624.1676029318",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1676115718,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1676029378,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "guid",
+      "value": "2E9D030F63E62D86X1676029318",
+      "domain": ".tns-counter.ru",
+      "path": "/",
+      "expires": 1707565318.585802,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OAID",
+      "value": "3af2ebbc294d1ddf51af6a19bf9037cd",
+      "domain": "4pda.to",
+      "path": "/",
+      "expires": 1707565318.584674,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "member_id",
+      "value": "11206283",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1707565328.837293,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "pass_hash",
+      "value": "d78ee7d03dd57b795bb6e74ee23e5c6a",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1707565328.837321,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "anonymous",
+      "value": "0",
+      "domain": ".4pda.to",
+      "path": "/",
+      "expires": 1707565328.837341,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
