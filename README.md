@@ -1,2 +1,4 @@
-<p align='right'>< TeachMeSkills /></p>
-<h1 align='center'>Репозиторий группы QAJ05-onl</h1>
+<h1 align='center'>WebdriverIO + Cucumber</h1>
+
+<p align='left'>Before tests - npm i</p>
+<p align='left'>Run tests - npm run cy</p>
