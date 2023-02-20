@@ -10,7 +10,6 @@ describe('4PDA main features', () => {
     cy.setCookie('member_id', '11206283', { domain: ".4pda.to", httpOnly: true, sameSite: "lax" });
     cy.setCookie('pass_hash', 'd78ee7d03dd57b795bb6e74ee23e5c6a', { domain: '.4pda.to', httpOnly: true, sameSite: "lax" });
     cy.getCookie('member_id').should('have.property', 'value', '11206283');
-
     cy.visit('/');
   })
 
@@ -18,10 +17,8 @@ describe('4PDA main features', () => {
   const comment: string = "Some comment";
 
   it("Check that online users statistic is hidden from user", () => {
-
     mainPage.goToForum();
     forumPage.verifyOnlineStatsIsExist();
-
   })
 
   /* Seems like mobile version have problems with chromium or in general with playwright.
@@ -29,21 +26,16 @@ describe('4PDA main features', () => {
   */
 
   it("Check that logged user can send QMS from main page", () => {
-
     qmsPage.createNewChat(qmsTitle);
     forumPage.checkSubmitButtonIsClickable(qmsTitle);
-
   })
 
   // Excellent number of new pages after each action...  
 
   it("Check that logged user can send QMS from forum page", () => {
-
     mainPage.goToForum();
     forumPage.createNewChat(qmsTitle);
-
     forumPage.checkSubmitButtonIsClickable(qmsTitle);
-
   })
 
   it("Check that search query work correctly", () => {
@@ -57,7 +49,6 @@ describe('4PDA main features', () => {
 
     searchPage.validateSearchResult(searchQuery.trim());
     searchPage.validateArticleResult(searchQuery.trim());
-
   })
 
   it("Check that logged user can comment article post", () => {
@@ -66,7 +57,6 @@ describe('4PDA main features', () => {
 
     mainPage.openFirstArticle();
     articlePage.commentPost(comment);
-
   })
 
   // Warning! Test can fail if topic was closed or user cant post in it.
@@ -79,7 +69,6 @@ describe('4PDA main features', () => {
 
     mainPage.goToForum();
     forumPage.createNewForumPost(comment);
-
   })
 
 

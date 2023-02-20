@@ -23,15 +23,12 @@ class SearchPage {
     // Methods
 
     validateSearchResult(expectedText: string) {
-
         this.searchResultElement.should('have.text', expectedText);
-
     }
 
     validateArticleResult(expectedText: string) {
         this.firstArticleElement.click();
         this.articleContainerElement.should('include.text', expectedText);
-
     }
 
 }

@@ -32,7 +32,7 @@ class ArticlePage {
         this.writeCommentTextFieldElement.click();
         this.noticeElement.click();
         this.writeCommentTextFieldElement.type(comment);
-        return this.submitButtonElement.should('be.enabled');
+        this.submitButtonElement.should('be.enabled');
     }
 
 }
